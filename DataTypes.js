@@ -23,8 +23,35 @@ console.log(typeof age)
 console.log(typeof null) // Null is considered as Object  type
 console.log(typeof undefined) // But Undefines is considered as a Data Type
 
-/* Other Data Types
+let bigInteg = 327482738732n
+console.log(typeof bigInteg)
+
+const id_1 = Symbol("123")
+const id_2 = Symbol("123")
+console.log( id_1 == id_2)
+
+/* Non Primitive/ Reference Data Types
+  Array
   Object
+  Functions
 */
 
+const theAvengers = ["Ironman", "Captain America", "Thor", "Hulk", "Black Widow", "Hawkeye"]
+console.log(typeof theAvengers)
+console.log(theAvengers)
+
+const bat = {
+    name :"Bruce Wayne",
+    callName :"Batman",
+    Genre :  "DC"
+}
+console.log(typeof bat)
+console.log(bat)
+
+function  topGun(){
+    console.log("Call Name : Mavrick, Onduty!")
+}
+console.log(typeof topGun)
+topGun()
+ 
 
