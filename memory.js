@@ -5,7 +5,7 @@ let myName = "Tom Riddle" // stored in the Stack memory
 let myAnotherName = myName
 myAnotherName = "Voldemort"
 
-console.log(myName)  // Returns the copy of the orogonal string in the stack
+console.log(myName)  // Returns the copy of the original string in the stack
 console.log(myAnotherName)
 
 let theChoosenOne = { // Stored in the heap memory with reference in the stack
