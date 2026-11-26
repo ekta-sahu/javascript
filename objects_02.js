@@ -12,6 +12,7 @@ user1.isLoggedIn = false
 console.log(user1)
 
 // defining an object inside another object
+
 const user3 ={
     email : "unknowngmail.com" ,
     fullname : {
