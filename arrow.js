@@ -12,7 +12,7 @@ user.welcomeMessage()
 user.username = "spiderman"
 user.welcomeMessage()
 
-console.log(this) // returns an empty object
+console.log(this) // returns an empty object in node.js , in browser it returns a window object
 console.log( typeof this )  // object
 
 function example(){ // this cannot be used in the context of a function

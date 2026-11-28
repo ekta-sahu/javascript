@@ -18,3 +18,13 @@
     //   } else {
     //   }
 
+// Nullish Coalescing Operator (??) -- null , undefined
+
+let val1;
+// val1 = 10 ?? 5
+// val1 = null ?? 5
+// val1 = undefined ?? 10
+val1 = null ?? 10 ?? 5
+
+console.log(val1)
+
