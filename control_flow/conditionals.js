@@ -28,3 +28,8 @@ val1 = null ?? 10 ?? 5
 
 console.log(val1)
 
+// Terniary Operator
+//   condition ? true : false
+const age = 17
+age >= 18 ? console.log("eligible to vote") : console.log("not eligible to vote")
+
